@@ -1,0 +1,250 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+div#container {
+    margin: auto width: 940px
+}
+
+h1 {
+    height: 134px;
+    width: 130px;
+    display: block;
+    text-indent: ‐9999px;
+    background-image: url("../images/logo_GK.png");
+    margin-left: 40px;
+}
+
+h2 {
+    border-bottom-color: solid 2px green;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: solid 1px grey;
+    align-content: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+#legenda {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 15px;
+    padding-right: 45px;
+    padding-left: 45px;
+    line-height: 1.5em;
+}
+
+#centro-distribuicao {
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+#familia-teles {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#lista-de-diferenciais {
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    color: #ccc;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("../images/fundo-rodape.png");
+    clear: both;
+}
+
+#logo-rodape {
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.social li {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.social .facebook[href*="facebook.com"] {
+    background-image: url("../images/sociais.png")
+}
+
+div#caixa-footer {
+    position: relative;
+    padding: 20px;
+}
+
+
+/* CSS para index */
+
+header {
+    position: relative;
+}
+
+.sacola {
+    position: top left;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-image: url(../images/sacola.png);
+}
+
+.menu-principal {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu-principal ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #dcdcdc;
+    list-style: none;
+}
+
+.menu-principal ul li {
+    display: inline;
+}
+
+.menu-principal ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: #EDEDED;
+    color: green;
+    text-decoration: none;
+    /*border-bottom: 3px solid #EDEDED;*/
+}
+
+.menu-principal a:hover {
+    color: orange;
+}
+
+.busca .menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2, #busca {
+    margin: 10px;
+}
+
+.busca {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+input[type=search], input[type=image] {
+    vertical-align: middle;
+}
+
+input[type=search] {
+    width: 170px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+div#destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: grey;
+    text-decoration: none;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a:before {
+    content: '-';
+    padding-right: 3px;
+}
+
+.painel {
+    margin: 10px;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    padding: 10px;
+    width: 445px;
+    border-radius: 0px;
+    box-shadow: 5px -9px 3px #000;
+}
+
+.novidades {
+    float: left;
+    background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
+    /*box-shadow: inset;*/
+}
+
+.mais-vendidos {
+    float: right;
+    background-color: #dcdcf5;
+    background: linear‐gradient(#dcdcf5, #f4bebe);
+    /*box-shadow: inset;*/
+}
+
+.novidades li{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+	transition: 0.7s ease-in;
+}
